@@ -1,7 +1,15 @@
-### 安装go
+### Linux安装go
 
+- 设置PATH和GOPATH环境变量
+   vim 编辑~/.bashrc, 再文件后面添加:
+   ````
+   export PATH=$PATH:/usr/local/go/bin
+   export GOPATH=/root/go/mydocker
+   ````
+   然后执行`source ~/.bashrc`
+   
 ### 工程设置
-1. 新建工程目录/root/go，另外设置环境变量：$GOPATH=/root/go
+1. 新建工程目录/root/go/mydocker(也就是GOPATH变量)
 2. 在$GOPATH下新建3个目录：
     - bin
     - pkg

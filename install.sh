@@ -2,7 +2,7 @@
 
 # 辅助安装cli和logrus包
 
-# to: 检查环境变量GOROOT,GOPATH是否存在
+# todo: 检查环境变量GOROOT,GOPATH是否存在
 
 WORKDIR=${GOPATH}/src
 
