@@ -54,8 +54,15 @@
         ````
         go get github.com/Sirupsen/logrus
         ````
+        
+    如果嫌步骤3、4麻烦，也可以直接使用脚本安装
+    ````
+    chmod +x install.sh && ./install.sh
+    ````
+    
+    
 ### 运行程序
 在src目录下，输入命令:
 ````
-go build -t .
+go build -o mydocker .
 ````
